@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css.css">
+    <title>Instagram fetch</title>
+</head>
+
+<body>
+    <div id="search-container">
+        <h1>Instagram Photo Search</h1>
+        <label for="input">Please enter username</label>
+        <input type="text" id="input">
+        <button id="btn">Fetch</button>
+    </div>
+    <div id="limit-container">
+        <label for="limit">Limit photo number</label>
+        <input type="text" id="limit">
+        <button id="btn-limit">Reduce</button>
+    </div>
+
+    <div id="ins-container"></div>
+
+    <button id="btn-clear">Remove All</button>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="ajax.js"></script>
+
+</body>
+
+</html>
